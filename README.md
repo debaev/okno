@@ -1,1 +1,1 @@
-# okno
+# https://debaev.github.io/okno
