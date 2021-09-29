@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?i075a4');
-  src:  url('../fonts/icomoon.eot?i075a4#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?i075a4') format('truetype'),
-    url('../fonts/icomoon.woff?i075a4') format('woff'),
-    url('../fonts/icomoon.svg?i075a4#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?cnjw59');
+  src:  url('../fonts/icomoon.eot?cnjw59#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?cnjw59') format('truetype'),
+    url('../fonts/icomoon.woff?cnjw59') format('woff'),
+    url('../fonts/icomoon.svg?cnjw59#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -131,6 +131,14 @@
 .icon-phone:before {
   content: "\e912";
   color: #2f6dce;
+}
+.icon-burger_location:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-x:before {
+  content: "\e91f";
+  color: #e8f6ff;
 }
 .icon-location:before {
   content: "\e913";

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тепло Окно</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -42,6 +42,20 @@
         </button>
       </div>
     </div>
+    <div class="burger-menu">
+      <button class="burger-menu__close"><span class="icon-x"></span></button>
+      <div class="burger-menu__line"></div>
+      <div class="burger-menu-contact">
+        <a href="tel:8(3822)50-05-12" class="burger-menu-contact__call"><span class="icon-phone"></span>8 (3822) 50-05-12</a>
+        <p class="burger-menu-contact__address"><span class="icon-burger_location"></span>Работаем по Томску,
+          Северску и области</p>
+      </div>
+      <ul>
+        <li><a href="">Подарок от ПРОФИ</a></li>
+        <li><a href="">Наши СпецЗаказы</a></li>
+        <li><a href="">О компании</a></li>
+      </ul>
+    </div>
   </header>
   <main class="main">
     <section class="welcome">
@@ -55,10 +69,18 @@
         </div>
         <div class="welcome-view">
           <ul>
-            <li class="wrap"><div class="welcome-view__list">ЗИМНИЙ РЕЖИМ ДЛЯ ОКОН</div></li>
-            <li class="wrap"><div class="welcome-view__list">БОЛЬШАЯ РЕГУЛИРОВКА ОКОН</div></li>
-            <li class="wrap"><div class="welcome-view__list">КОМПЛЕКСНАЯ ПОДГОТОВКА</div></li>
-            <li class="wrap"><div class="welcome-view__list">ПРИТОЧНЫЕ КЛАПАНЫ AIR-BOX</div></li>
+            <li class="wrap">
+              <div class="welcome-view__list">ЗИМНИЙ РЕЖИМ ДЛЯ ОКОН</div>
+            </li>
+            <li class="wrap">
+              <div class="welcome-view__list">БОЛЬШАЯ РЕГУЛИРОВКА ОКОН</div>
+            </li>
+            <li class="wrap">
+              <div class="welcome-view__list">КОМПЛЕКСНАЯ ПОДГОТОВКА</div>
+            </li>
+            <li class="wrap">
+              <div class="welcome-view__list">ПРИТОЧНЫЕ КЛАПАНЫ AIR-BOX</div>
+            </li>
           </ul>
         </div>
       </div>
@@ -112,9 +134,9 @@
               пригород и удаленные районы оплачиваются по тарифам организации.</p>
           </div>
         </div>
-        <div class="slider">
+        <div class="slider slider1">
           <h3 class="slider__title">Вместе с Зимником дешевле!</h3>
-          <div class="slider-body slider-body_active">
+          <div class="slider-body slide active">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-20%</p>
             </div>
@@ -127,7 +149,7 @@
               <p class="slider-body-blue__equals">560 <span>руб!</span></p>
             </div>
           </div>
-          <div class="slider-body">
+          <div class="slider-body slide">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-15%</p>
             </div>
@@ -141,7 +163,7 @@
               <p class="slider-body-blue__equals">297<span>руб!</span></p>
             </div>
           </div>
-          <div class="slider-body">
+          <div class="slider-body slide">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-35%</p>
             </div>
@@ -155,7 +177,7 @@
               <p class="slider-body-blue__equals">100<span>руб!</span></p>
             </div>
           </div>
-          <div class="slider-body">
+          <div class="slider-body slide">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-10%</p>
             </div>
@@ -170,13 +192,13 @@
             </div>
           </div>
           <ul class="slider-discount">
-            <li class="slider-discount__list">-10%</li>
-            <li class="slider-discount__list">-15%</li>
-            <li class="slider-discount__list slider-discount__list_active">-20%</li>
-            <li class="slider-discount__list">-35%</li>
+            <li class="slider-discount__list indicator">-10%</li>
+            <li class="slider-discount__list indicator">-15%</li>
+            <li class="slider-discount__list indicator active">-20%</li>
+            <li class="slider-discount__list indicator">-35%</li>
           </ul>
-          <button class="slider__btn_right"><span class="icon-arrow_r"></span></button>
-          <button class="slider__btn_left"><span class="icon-arrow_l"></span></button>
+          <button class="slider__btn_right prev__arrow"><span class="icon-arrow_r"></span></button>
+          <button class="slider__btn_left next__arrow"><span class="icon-arrow_l"></span></button>
         </div>
       </div>
     </section>
@@ -202,10 +224,9 @@
                 шумоизоляции; </li>
               <li class="about-offers__list about-offers__list">• общий результат: повышение срока.</li>
             </ul>
-            <p class="about-offers__warn about-offers__warn"><span class="icon-warn"></span>Внимание! Данная услуга
-              подходит для створок с полностью исправной фурнитурой и уплотнителем, и не устраняет дефекты в работе
-              фурнитуры. Если в работе створок есть какие-то дефекты, то необходимо проводить Большую Регулировку.
-            </p>
+            <p class="about-offers__warn about-offers__warn"><span class="icon-warn"></span>Внимание: в данную услугу не
+              входит исправление геометрии (устранение геометрического провисания створки), сложный ремонт и замена
+              элементов фурнитуры.</p>
             <button class="about-offers__btn about-offers__btn">выезд мастера</button>
             <p class="about-offers__text about-offers__text">*Диагностика бесплатно (при условии проведения работ).
               <br>Выезд в пригород и удаленные районы оплачиваются по тарифам организации.</p>
@@ -239,9 +260,9 @@
             </div>
           </div>
         </div>
-        <div class="service-slider slider">
+        <div class="service-slider slider slider2">
           <h3 class="slider__title">ВМЕСТЕ С РЕГУЛИРОВКОЙ ДЕШЕВЛЕ!</h3>
-          <div class="slider-body slider-body_active">
+          <div class="slider-body slide slider-body active">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-10%</p>
             </div>
@@ -255,7 +276,7 @@
               <p class="slider-body-blue__equals">2250<span>руб!</span></p>
             </div>
           </div>
-          <div class="slider-body">
+          <div class="slider-body slide">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-15%</p>
             </div>
@@ -270,15 +291,15 @@
             </div>
           </div>
           <ul class="slider-discount">
-            <li class="slider-discount__list">-10%</li>
-            <li class="slider-discount__list">-10%</li>
-            <li class="slider-discount__list slider-discount__list_active">-10%</li>
-            <li class="slider-discount__list">-30%</li>
-            <li class="slider-discount__list">-30%</li>
-            <li class="slider-discount__list">-50%</li>
+            <li class="slider-discount__list indicator">-10%</li>
+            <li class="slider-discount__list indicator">-10%</li>
+            <li class="slider-discount__list indicator slider-discount__list active">-10%</li>
+            <li class="slider-discount__list indicator">-30%</li>
+            <li class="slider-discount__list indicator">-30%</li>
+            <li class="slider-discount__list indicator">-50%</li>
           </ul>
-          <button class="slider__btn_right"><span class="icon-arrow_r"></span></button>
-          <button class="slider__btn_left"><span class="icon-arrow_l"></span></button>
+          <button class="slider__btn_right next__arrow"><span class="icon-arrow_r"></span></button>
+          <button class="slider__btn_left prev__arrow"><span class="icon-arrow_l"></span></button>
         </div>
       </div>
     </section>
@@ -339,9 +360,9 @@
               пригород и удаленные районы оплачиваются по тарифам организации.</p>
           </div>
         </div>
-        <div class="slider">
+        <div class="slider slider3">
           <h3 class="slider__title">ВМЕСТЕ С КОМПДЕКСОМ ДЕШЕВЛЕ!</h3>
-          <div class="slider-body slider-body_active">
+          <div class="slider-body slide slider-body active">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-20%</p>
             </div>
@@ -350,10 +371,10 @@
               <h4 class="slider-body-white__title">На всю продукцию <span style="color: #2F6DCE;">Air-Box</span></h4>
             </div>
             <div class="slider-body-blue">
-              <p class="slider-body-blue__equals">20 <span>%</span></p>
+              <p class="slider-body-blue__equals">20%</p>
             </div>
           </div>
-          <div class="slider-body">
+          <div class="slider-body slide">
             <div class="slider-body-red">
               <p class="slider-body-red__text">-15%</p>
             </div>
@@ -368,15 +389,15 @@
             </div>
           </div>
           <ul class="slider-discount">
-            <li class="slider-discount__list">ПОДАРОК</li>
-            <li class="slider-discount__list">-10%</li>
-            <li class="slider-discount__list slider-discount__list_active">-20%</li>
-            <li class="slider-discount__list">-30%</li>
-            <li class="slider-discount__list">-30%</li>
-            <li class="slider-discount__list">-50%</li>
+            <li class="slider-discount__list indicator">ПОДАРОК</li>
+            <li class="slider-discount__list indicator">-10%</li>
+            <li class="slider-discount__list indicator slider-discount__list active">-20%</li>
+            <li class="slider-discount__list indicator">-30%</li>
+            <li class="slider-discount__list indicator">-30%</li>
+            <li class="slider-discount__list indicator">-50%</li>
           </ul>
-          <button class="slider__btn_right"><span class="icon-arrow_r"></span></button>
-          <button class="slider__btn_left"><span class="icon-arrow_l"></span></button>
+          <button class="slider__btn_right next__arrow"><span class="icon-arrow_r"></span></button>
+          <button class="slider__btn_left prev__arrow"><span class="icon-arrow_l"></span></button>
         </div>
       </div>
     </section>
@@ -417,7 +438,7 @@
             </p>
           </div>
           <div class="corp-card-item">
-            <h4 class="corp-card-item__title">Air-Box Comfort S</h4>
+            <h4 class="corp-card-item__title">Air-Box Comfort</h4>
             <p class="corp-card-item__text">
               Установка на глухое окно, с фрезеровкой. <br> Расход воздуха до 41 м3/час, плавная <br>ручная
               регулировка,<br>
@@ -428,7 +449,7 @@
             </p>
           </div>
           <div class="corp-card-item">
-            <h4 class="corp-card-item__title">Air-Box ECO</h4>
+            <h4 class="corp-card-item__title">Air-Box Comfort</h4>
             <p class="corp-card-item__text">
               Установка без фрезеровки на створку окна. <br> Расход воздуха до 26 м3/час, плавная <br>ручная
               регулировка, размер
@@ -467,11 +488,8 @@
             подробной консультации</p>
         </div>
         <div class="calc-img">
-          <div class="calc-img__bg">
-            <img src="assets/img/man.png" alt="">
-          </div>
+          <img src="assets/img/man.png" alt="">
         </div>
-        <div class="calc-bg"></div>
       </div>
     </section>
     <section class="works">
@@ -481,7 +499,7 @@
         </div>
         <div class="slider">
           <div class="slider-body">
-            <div class="slider-body-card">
+            <div class="slider-body-card slider-body-card_active">
               <img src="assets/img/works-slider_img_1.jpg" alt="">
               <p>Небольшое описание <br> фотографии</p>
             </div>
@@ -544,6 +562,14 @@
                   class="path2"></span></span></button>
             <button class="company-main-view__left"><span class="icon-blue-arr-left"><span class="path1"></span><span
                   class="path2"></span></span></button>
+            <ul class="indicators">
+              <li class="indicators__list"></li>
+              <li class="indicators__list"></li>
+              <li class="indicators__list indicators__list_active"></li>
+              <li class="indicators__list"></li>
+              <li class="indicators__list"></li>
+              <li class="indicators__list"></li>
+            </ul>
           </div>
         </div>
         <div class="company-subdivs">
@@ -615,30 +641,18 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="footer__container">
-        <p>(c) 2020 Служба Ремонта Окон <br>на Плоретарской</p>
-        <p>Предложения, указанные на сайте, не являются публичной офертой. <br>Фактическая цена может отличаться от заявленной в зависимости от размеров,<br>комплектации, выбора материалов.</p>
-        <p>Разработано WebSeversk</p>
-      </div>
-    </footer>
   </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <p>(c) 2020 Служба Ремонта <br class="end"> Окон <br>на Плоретарской</p>
+      <p>Предложения, указанные на сайте, не являются публичной офертой. <br>Фактическая цена может отличаться от заявленной в зависимости от размеров,<br>комплектации, выбора материалов.</p>
+      <p>Разработано WebSeversk</p>
+    </div>
+  </footer>
+  <div class="overlay"></div>
 
 
-
-
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
-
-
-<!-- Nodir A., [24.09.21 11:55]
-Требования: 
-- Валидный и семантический код
-- БЭМ
-- SASS/SCSS
-- Pixel Perfect
-- Использовать иконочный шрифт через icomoon
-- При изменении контента верстка не сломалась
-- Gulp (скрипты и стили компилировать в один файл и минифицировать их) -->
